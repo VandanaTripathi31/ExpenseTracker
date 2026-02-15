@@ -52,7 +52,7 @@ function Login() {
           />
 
           <button
-            className="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition-all duration-300"
+            className="w-full bg-indigo-600 cursor-pointer text-white py-2 rounded-lg hover:bg-indigo-700 transition-all duration-300"
           >
             Login
           </button>
