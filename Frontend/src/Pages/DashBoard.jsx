@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { motion } from "framer-motion";
 import API from "../utils/api";
-import ExpenseForm from "../components/ExpenseForm";
-import ExpenseList from "../components/ExpenseList";
+import ExpenseForm from "../Components/ExpenseForm.jsx";
+import ExpenseList from "../Components/ExpenseList.jsx";
 
 function Dashboard() {
   const navigate = useNavigate();
